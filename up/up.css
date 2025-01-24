@@ -1,0 +1,265 @@
+
+.logo{
+  transform: translateY(-15px);
+}
+.foto{
+    width: 20%;
+    border-radius: 90%;
+    transform: translateY(-15px);
+    margin-right: 20px;
+}
+.etern{
+    width: 10%;
+    border-radius: 90%;
+    margin-left: 20px;
+    transform: translateY(-10px);
+}
+.penjelasan{
+  margin: 10%;
+}
+.gambar1{
+  transform: translateY(-60px);
+}
+/* Styling untuk navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff00;
+    padding: 40px 20px;
+    width: 100%;
+}
+/* Styling logo */
+.navbar .logo a {
+    color: rgb(21, 21, 21);
+    font-size: 38px;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+/* Styling untuk menu links */
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content:end;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: rgb(32, 32, 32);
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+/* Efek hover untuk links */
+.nav-links a:hover {
+    color: #2a2a2a;
+    text-decoration: underline;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: flex;
+    font-weight: bold;
+  }
+  .pem{font-size:65px;
+    font-weight: bold}
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  body {
+
+    margin: 0;
+  
+    padding: 0;
+  
+    font-family: sans-serif;
+  
+  }
+  
+  
+  .container {
+  
+    display: flex;
+  
+  }
+  
+  
+  .left-section {
+  
+    background-color: #FFA500; /* Orange background */
+  
+    padding: 20px;
+    margin-right: 20px;
+    width: 50%;
+    text-align: center;
+  
+  }
+  
+  
+  h1 {
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  .product-image {
+  
+    width: 150px;
+  
+    margin: 0 10px;
+  
+  }
+  .container,.kuping{
+    margin-top: 10px;
+  }
+  .kuping{
+    background-color: #ffd82d;
+
+    padding: 20px;
+  
+    width: 100%;
+  
+    text-align: center;
+  
+  }
+  
+  .right-section {
+    background-color: #2fb3ff;
+
+    padding: 20px;
+  
+    width: 50%;
+  
+    text-align: center;
+  
+  }
+  
+  
+  .blue-block {
+  
+    background-color: #6495ED; /* Blue background */
+  
+    height: 50%;
+  
+  }
+  
+  
+  .yellow-block {
+  
+    background-color: #FFD700; /* Yellow background */
+  
+    height:50%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boddy {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #fbfbfb;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 kolom untuk desktop */
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-item {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+  transform: translateY(-5px);
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-item h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.pr{
+  margin-top: 100px;
+}
+.product-item{
+  margin: 40px;
+}
+.prodak{
+  margin-top: 86px;
+  
+}
+.top{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.about{
+  margin-top: 100px;
+}
+.gambar5{
+  transform: translateY(-30px);
+}
+.pem2{
+  transform: translateY(170px);
+}
